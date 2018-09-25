@@ -1,4 +1,4 @@
-package org.blueprint01
+package org.blueprint01.Application01
 import groovy.json.JsonBuilder
 import groovy.json.*
 
