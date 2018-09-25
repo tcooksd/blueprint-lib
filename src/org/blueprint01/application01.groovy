@@ -3,7 +3,7 @@ import groovy.json.JsonBuilder
 import groovy.json.*
 
 
-class AppJson {
+class Application01 {
   def postBody01(Map<?, ?> appmap01) {
     def jsonSlurper = new JsonSlurper()
     def jsonObject = jsonSlurper.parseText(appmap01)
