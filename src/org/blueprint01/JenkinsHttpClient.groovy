@@ -10,7 +10,7 @@ import jodd.http.HttpRequest
 class JenkinsHttpClient {
 
     private HttpRequest httpRequest
-    
+
     JenkinsHttpClient() {
         httpRequest = new HttpRequest()
     }
@@ -57,4 +57,3 @@ class JenkinsHttpClient {
         return resp
     }
 }
-
