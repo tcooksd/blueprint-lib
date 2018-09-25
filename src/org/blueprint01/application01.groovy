@@ -1,3 +1,4 @@
+#!/usr/bin/groovy
 package org.blueprint01;
 
 
