@@ -1,4 +1,4 @@
-import org.blueprint01.*
+import org.blueprint01.Application01
 
 /* def buildApp(String morpheusUrl, Map<?, ?> postBody, String bearerToken) {
 	JenkinsHttpClient http = new JenkinsHttpClient()
@@ -15,8 +15,7 @@ def pullJson(String morpheusUrl,String bearerToken) {
 
 def buildAppJson(String postbody01) {
 	Application01 jsonret01 = new Application01()
-	jsonret01.postBody01(postbody01) 
-
+	jsonret01.postBody01(postbody01)
 
 }
 
