@@ -1,4 +1,4 @@
-import org.blueprint01
+import org.blueprint01.*
 
 /* def buildApp(String morpheusUrl, Map<?, ?> postBody, String bearerToken) {
 	JenkinsHttpClient http = new JenkinsHttpClient()
