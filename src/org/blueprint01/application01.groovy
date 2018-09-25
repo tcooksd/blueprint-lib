@@ -8,6 +8,8 @@ class AppJson {
     def jsonSlurper = new JsonSlurper()
     def jsonObject = jsonSlurper.parseText(appmap01)
     def blueprint = jsonObject.appTemplates
+    return postBodyTest
+  }
 
   Map<?, ?> postBodyTest = [ "image": "/assets/apps/template.png",
         "tiers": [
@@ -263,6 +265,5 @@ class AppJson {
         ],
         "id": "${blueprint}"
       ]
-  return postBodyTest
-}
+
 }
