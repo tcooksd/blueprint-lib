@@ -4,11 +4,18 @@ import groovy.json.*
 
 
 class Application01 {
+
+  private JsonSlurper jsonSlurper
+
+  Application01() {
+      jsonSlurper = new JsonSlurper()
+  }
+
   def postBody01(Map<?, ?> appmap01) {
-    def jsonSlurper = new JsonSlurper()
     def jsonObject = jsonSlurper.parseText(appmap01)
     def blueprint = jsonObject.appTemplates
     return postBodyTest
+
   }
 
   Map<?, ?> postBodyTest = [ "image": "/assets/apps/template.png",
