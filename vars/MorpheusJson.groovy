@@ -17,7 +17,7 @@ def pullJson(String morpheusUrl,String bearerToken) {
 def call(Map<?, ?>name) {
     // Any valid steps can be called from this code, just like in other
     // Scripted Pipeline
-    echo "${name}"
+    echo name
 }
 
 /*
