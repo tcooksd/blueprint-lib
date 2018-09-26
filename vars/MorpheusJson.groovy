@@ -13,7 +13,7 @@ def pullJson(String morpheusUrl,String bearerToken) {
 
 /* def buildBlueprintJson(Map<?, ?>) {} */
 
-def buildAppJson(postbody01) {
+def buildAppJson(String postbody01) {
 	prinln postbody01
 
 
