@@ -13,13 +13,13 @@ def pullJson(String morpheusUrl,String bearerToken) {
 */
 
 /* def buildBlueprintJson(Map<?, ?>) {} */
-blueprintName = "test01"
-blueprint = "test03"
+
 
 class buildAppJson {
 
 
-
+	String blueprintName = "test01"
+	String blueprint = "test03"
 	Map<?, ?>postBodyTest = [ "image": "/assets/apps/template.png",
 			"tiers": [
 				"App": [
