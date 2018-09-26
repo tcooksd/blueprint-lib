@@ -277,7 +277,7 @@ def buildAppJson () {
 		return postBodyTest
 }
 
-def test1 = new buildAppJson()
+def test1 = buildAppJson()
 println test1()
 /* def buildTaskJson(Map<?, ?>) {}
 
