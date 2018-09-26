@@ -17,8 +17,7 @@ def pullJson(String morpheusUrl,String bearerToken) {
 class buildAppJson {
 
 
-
- postBodyTest = [ "image": "/assets/apps/template.png",
+postBodyTest = [ "image": "/assets/apps/template.png",
 			"tiers": [
 				"App": [
 					"linkedTiers": [],
@@ -273,11 +272,10 @@ class buildAppJson {
 			"id": "${blueprint}"
 		]
 
-		return postBodyTest
 }
 
 def test1 = new buildAppJson()
-println test1.postBodyTest()
+println test1.postBodyTest
 /* def buildTaskJson(Map<?, ?>) {}
 
 def buildWorkflowJson(Map<?, ?>) {}
