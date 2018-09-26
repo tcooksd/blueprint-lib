@@ -18,8 +18,8 @@ def pullJson(String morpheusUrl,String bearerToken) {
 def buildAppJson () {
 
 
-	String blueprintName = "test01"
-	String blueprint = "test03"
+	def String blueprintName = "test01"
+	def String blueprint = "test03"
 	Map<?, ?>postBodyTest = [ "image": "/assets/apps/template.png",
 			"tiers": [
 				"App": [
