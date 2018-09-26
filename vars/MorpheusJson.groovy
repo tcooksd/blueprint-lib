@@ -274,11 +274,12 @@ class buildAppJson {
 			],
 			"id": "${blueprint}"
 		]
+		return postBodyTest
 }
 }
 
 def test1 = new buildAppJson()
-println test1.buildAppJson.postBodyTest
+println test1.buildAppJson()
 /* def buildTaskJson(Map<?, ?>) {}
 
 def buildWorkflowJson(Map<?, ?>) {}
