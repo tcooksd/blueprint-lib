@@ -15,7 +15,7 @@ def pullJson(String morpheusUrl,String bearerToken) {
 /* def buildBlueprintJson(Map<?, ?>) {} */
 
 
-def buildAppJson (
+def buildAppJson () {
 
 
 	String blueprintName = "test01"
@@ -275,7 +275,7 @@ def buildAppJson (
 			"id": "${blueprint}"
 		]
 		return postBodyTest
-)
+}
 
 def test1 = new buildAppJson()
 println test1()
