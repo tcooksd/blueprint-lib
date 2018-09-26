@@ -16,7 +16,7 @@ def pullJson(String morpheusUrl,String bearerToken) {
 
 class buildAppJson {
 
-	postBodyTest = "testasdf"
+	String postBodyTest = "testasdf"
 
 }
 
