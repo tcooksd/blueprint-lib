@@ -278,7 +278,7 @@ def buildAppJson () {
 }
 
 
-println buildAppJson.postBodyTest
+println buildAppJson.blueprintName
 /* def buildTaskJson(Map<?, ?>) {}
 
 def buildWorkflowJson(Map<?, ?>) {}
