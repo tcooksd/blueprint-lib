@@ -14,10 +14,10 @@ def pullJson(String morpheusUrl,String bearerToken) {
 
 /* def buildBlueprintJson(Map<?, ?>) {} */
 
-def call(String name = 'human') {
+def call(Map<?, ?>name) {
     // Any valid steps can be called from this code, just like in other
     // Scripted Pipeline
-    echo "Hello, ${name}."
+    echo "${name}"
 }
 
 /*
