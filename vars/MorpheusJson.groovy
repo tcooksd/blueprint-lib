@@ -16,6 +16,9 @@ def pullJson(String morpheusUrl,String bearerToken) {
 
 class buildAppJson {
 
+  blueprintName = "test01"
+	blueprint = "test03"
+
 	Map<?, ?>postBodyTest = [ "image": "/assets/apps/template.png",
 			"tiers": [
 				"App": [
