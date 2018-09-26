@@ -1,5 +1,5 @@
 #!/usr/bin/groovy
-
+import groovy.json.*
 
 /* def buildApp(String morpheusUrl, Map<?, ?> postBody, String bearerToken) {
 	JenkinsHttpClient http = new JenkinsHttpClient()
@@ -14,10 +14,16 @@ def pullJson(String morpheusUrl,String bearerToken) {
 
 /* def buildBlueprintJson(Map<?, ?>) {} */
 
+
+
+
 def call(Map<?, ?>name) {
     // Any valid steps can be called from this code, just like in other
     // Scripted Pipeline
-    echo "${name}"
+		def jsonSlurper = new JsonSlurper()
+		def jsonObject = jsonSlurper.parseText(name)
+		def blueprint = jsonObject.appTemplates
+    echo "${blueprint}"
 }
 
 /*
