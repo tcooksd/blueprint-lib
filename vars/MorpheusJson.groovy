@@ -277,8 +277,8 @@ def buildAppJson () {
 		return postBodyTest
 }
 
-
-println buildAppJson.blueprintName
+def test1 = buildAppJson()
+println test1.blueprintName
 /* def buildTaskJson(Map<?, ?>) {}
 
 def buildWorkflowJson(Map<?, ?>) {}
